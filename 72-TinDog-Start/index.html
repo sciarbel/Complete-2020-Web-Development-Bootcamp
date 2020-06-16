@@ -4,19 +4,33 @@
 <head>
   <meta charset="utf-8">
   <title>TinDog</title>
+
+  <!-- Bootstrap CDN -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+
+  <!-- GoogleFonts -->
   <link
     href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&family=Ubuntu:wght@400;500;700&display=swap"
     rel="stylesheet">
+
+
+  <!-- FontAwesome CDN -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
   <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
 
+
+  <!-- Title Section -->
   <section id="title">
 
     <div class="container-fluid">
+
       <!-- Nav Bar -->
       <nav class="navbar navbar-expand-lg navbar-dark">
 
@@ -48,18 +62,30 @@
 
       </nav>
 
-      <!-- Title -->
 
+      <!-- Title -->
       <div class="row">
 
         <div class="col-lg-6">
+
           <h1>Meet new and interesting dogs nearby.</h1>
-          <button type="button">Download</button>
-          <button type="button">Download</button>
+
+          <!-- Download Buttons -->
+          <button type="button" class="btn btn-dark btn-lg download-button">
+            <i class="fab fa-apple"></i> Download
+          </button>
+
+          <button type="button" class="btn btn-outline-light btn-lg download-button">
+            <i class="fab fa-google-play"></i> Download
+          </button>
+
         </div>
 
+        <!-- Title Image -->
         <div class="col-lg-6">
-          <img src="images/iphone6.png" alt="iphone-mockup">
+
+          <img id="title-image" src="images/iphone6.png" alt="iphone-mockup">
+
         </div>
 
       </div>
@@ -70,23 +96,39 @@
 
 
   <!-- Features -->
-
   <section id="features">
 
-    <h3>Easy to use.</h3>
-    <p>So easy to use, even your dog could do it.</p>
+    <div class="container-fluid px-lg-5">
 
-    <h3>Elite Clientele</h3>
-    <p>We have all the dogs, the greatest dogs.</p>
+      <div class="row mx-lx-n1">
 
-    <h3>Guaranteed to work.</h3>
-    <p>Find the love of your dog's life or your money back.</p>
+        <div class="col-lg-4 feature-box">
+          <i class="fas fa-check-circle fa-4x feature-icon"></i>
+          <h3>Easy to use.</h3>
+          <p>So easy to use, even your dog could do it.</p>
+        </div>
+
+        <div class="col-lg-4 feature-box">
+          <i class="fas fa-bullseye fa-4x feature-icon"></i>
+          <h3>Elite Clientele</h3>
+          <p>We have all the dogs, the greatest dogs.</p>
+        </div>
+
+        <div class="col-lg-4 feature-box">
+          <i class="fas fa-heart fa-4x feature-icon"></i>
+          <h3>Guaranteed to work.</h3>
+          <p>Find the love of your dog's life or your money back.</p>
+        </div>
+
+      </div>
+
+    </div>
+
 
   </section>
 
 
   <!-- Testimonials -->
-
   <section id="testimonials">
 
     <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
@@ -101,7 +143,6 @@
 
 
   <!-- Press -->
-
   <section id="press">
 
     <img src="images/techcrunch.png" alt="tc-logo">
@@ -113,7 +154,6 @@
 
 
   <!-- Pricing -->
-
   <section id="pricing">
 
     <h2>A Plan for Every Dog's Needs</h2>
@@ -148,7 +188,6 @@
 
 
   <!-- Call to Action -->
-
   <section id="cta">
 
     <h3>Find the True Love of Your Dog's Life Today.</h3>
@@ -159,13 +198,14 @@
 
 
   <!-- Footer -->
-
   <footer id="footer">
 
     <p>© Copyright 2018 TinDog</p>
 
   </footer>
 
+
+  <!-- Bootstrap Scripts -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
   </script>
@@ -175,6 +215,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
     integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
   </script>
+
 </body>
 
 </html>
