@@ -91,8 +91,11 @@ p{
 #testimonials {
   background-color: #ef8172;
   color: #fff;
-  padding: 7% 15%;
   text-align: center;
+}
+
+.carousel-item {
+  padding: 7% 15%;
 }
 
 h2 {
