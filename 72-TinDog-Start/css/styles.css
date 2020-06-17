@@ -2,7 +2,7 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-/* ----------------Title Section---------------- */
+/* ----------------Title Section--------------- */
 #title {
   background-color: #ff4c68;
   color: #fff;
@@ -125,6 +125,14 @@ h2 {
 
 
 /* ----------------Pricing---------------- */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
 
 
 /* ----------------Call to Action---------------- */
