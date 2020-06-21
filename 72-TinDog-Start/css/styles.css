@@ -1,15 +1,52 @@
 body {
   font-family: 'Montserrat', sans-serif;
+  text-align: center;
 }
 
-/* ----------------Title Section--------------- */
-#title {
+.container-fluid {
+  padding: 7% 14%;
+}
+
+.colored-section {
   background-color: #ff4c68;
   color: #fff;
 }
 
-.container-fluid {
-  padding: 3% 15% 7%;
+.white-section {
+background-color: #fff;
+}
+
+
+/* ----------------Section Headings--------------- */
+.section-heading {
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1.5;
+}
+
+
+/* Media Queries for Title Section */
+@media (min-width: 1300px) {
+  #title-image {
+    right: 15%;
+    position: absolute;
+    width: 40%;
+  }
+}
+
+@media (max-width: 1028px) {
+  #title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+
+/* ----------------Title Section--------------- */
+#title .container-fluid {
+  padding: 3% 14% 5%;
+  text-align: left;
+
 }
 
 
@@ -35,7 +72,7 @@ body {
 
 
 /* Title */
-h1 {
+.big-heading {
   font-size: 3rem;
   font-weight: 900;
   line-height: 1.5;
@@ -49,49 +86,25 @@ h1 {
 
 
 /* Title Image */
-#title-image {
+.title-image {
   position: absolute;
   right: 25%;
   transform: rotate(25deg);
   width: 60%;
 }
 
-@media (min-width: 1300px) {
-  #title {}
-
-  #title-image {
-    right: 15%;
-    position: absolute;
-    width: 40%;
-  }
-}
-
-@media (max-width: 1028px) {
-  #title {
-    text-align: center;
-  }
-
-  #title-image {
-    position: static;
-    transform: rotate(0);
-  }
-}
-
 
 /* ----------------Features---------------- */
 #features {
-  background-color: #fff;
-  padding: 7% 14%;
   position: relative;
   z-index: 1;
 }
 
 .feature-box {
   padding: 4.5%;
-  text-align: center;
 }
 
-h3 {
+.feature-title {
   font-size: 1.7rem;
   font-weight: 800;
 }
@@ -114,16 +127,10 @@ p {
 /* ----------------Testimonials----------------*/
 #testimonials {
   background-color: #ef8172;
-  color: #fff;
-  text-align: center;
 }
 
-.carousel-item {
-  padding: 7% 15%;
-}
-
-h2 {
-  font-weight: bold;
+.testimonial-text {
+  font-weight: 700;
   font-size: 3rem;
   line-height: 1.5;
 }
@@ -138,7 +145,6 @@ h2 {
 /* ----------------Press---------------- */
 #press {
   background-color: #ef8172;
-  text-align: center;
   padding-bottom: 3%;
 }
 
@@ -148,38 +154,17 @@ h2 {
 }
 
 
-/* ----------------Pricing---------------- */
-#pricing {
-  padding: 100px;
-  text-align: center;
-}
-
+/* --------------Pricing-------------- */
 .pricing-column {
   padding: 3% 2%;
 }
 
 
-/* --------------Call to Action-------------- */
-#cta {
-  background-color: #ff4c68;
-  padding: 7% 14%;
-  text-align: center;
-}
+/* ------------Call to Action------------ */
 
-#cta-heading {
-  color: #fff;
-  font-size: 3.5rem;
-  font-weight: 900;
-  line-height: 1.5;
-}
 
 
 /* ----------------Footer---------------- */
-#footer {
-  padding: 7% 14%;
-  text-align: center;
-}
-
 .social-icon {
   margin: 20px 10px;
 }
