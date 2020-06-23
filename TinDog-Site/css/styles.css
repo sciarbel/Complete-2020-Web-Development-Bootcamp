@@ -144,8 +144,9 @@ p {
 
 /* ----------------Press---------------- */
 #press {
-  background-color: #ef8172;
-  padding-bottom: 3%;
+  background-color: #fff;
+  padding: 5% 2%;
+  border-bottom: #ccc 1px solid;
 }
 
 .press-logo {
