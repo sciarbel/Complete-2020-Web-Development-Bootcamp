@@ -1,5 +1,8 @@
+// Class 148
 document.querySelector("ul").lastElementChild.innerHTML = "Sciarbel";
 
+
+// Class 150
 document.getElementsByTagName("li")[2].style.color = "red";
 
 console.log(document.getElementsByTagName("li").length);
@@ -19,3 +22,16 @@ document.querySelector("li a").style.background = "pink";
 document.querySelectorAll("li.item")[1].style.background = "blue";
 
 document.querySelector("#list a").style.color = "red";
+
+document.querySelector("button").style.backgroundColor = "yellow";
+
+
+// Class 152
+document.querySelector("#title").classList.toggle("huge"); 
+// "toggle", "add" and "remove"
+
+
+// Class 153
+document.querySelector("#title").innerHTML = "<em>NICE</em>";
+
+document.querySelector("#title").textContent = "<em>NICE</em>";
