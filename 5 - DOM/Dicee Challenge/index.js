@@ -1,0 +1,1 @@
+var randomNumber = Math.round(Math.random() * 6);
