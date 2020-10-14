@@ -13,3 +13,6 @@ whosPaying();
 //   var randomPerson = name[randomPersonPosition];
 //   return randomPerson + "is going to buy lunch today"
 // }
+
+
+// Can use Math.round();

@@ -35,3 +35,13 @@ document.querySelector("#title").classList.toggle("huge");
 document.querySelector("#title").innerHTML = "<em>NICE</em>";
 
 document.querySelector("#title").textContent = "<em>NICE</em>";
+
+
+// Class 154
+document.querySelector("a");
+
+document.querySelector("a").attributes;
+
+document.querySelector("a").getAttribute("href");
+
+document.querySelector("a").setAttribute("href", "https://www.bing.com");
