@@ -4,7 +4,8 @@
 
 
 // Class 116
-// Ex 1
+
+// Ex-1
 // var name = "Sciarbel";
 // console.log(name.slice(0, 1));
 
@@ -15,6 +16,7 @@
 
 
 // Class 117
+
 // Ex 1
 var name = "sciarbel";
 name = name.toUpperCase();
